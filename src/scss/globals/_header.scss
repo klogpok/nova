@@ -1,0 +1,21 @@
+.header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+
+  &-main {
+    display: flex;
+    align-items: center;
+    background-color: var(--blue);
+    height: 50px;
+    
+  }
+
+  &-hamburger {
+    display: flex;
+    align-items: center;
+    height: 30px;
+    background-color: var(--grey);    
+  }
+}
